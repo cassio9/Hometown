@@ -1,0 +1,55 @@
+.main-attractions {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #f1faee;
+  color: #1d3557;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.attractions-container {
+    padding: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-attractions h3 {
+  font-weight: 700;
+  width: 250px;
+}
+
+.main-attractions img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+
+.strategic-img, .park-img, .adpm-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+}
+.strategic-img {
+    background-image: url(../img/vilamaria.jpeg);
+}
+
+.park-img {
+    background-image: url(../img/parque-vila-guilherme-trote-1024x768.jpeg);
+}
+
+.adpm-img {
+    background-image: url(../img/adpm.jpeg);
+}
+.main-attractions p {
+  font-weight: 400;
+  max-width: 250px;
+  line-height: 1.5em;
+}
