@@ -30,3 +30,15 @@
 .right-side-guide h2 {
   font-weight: 700;
 }
+
+@media (max-width: 400px) {
+  .guide-container {
+    display: block;
+  }
+
+  .guide-container img {
+    width: 100%;
+    border-radius: 10%;
+  }
+
+}
